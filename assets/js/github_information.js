@@ -1,4 +1,4 @@
-function userInformationHTML(user) { // Return template literal using back quote notation
+function userInformationHTML(user) {
     return `
         <h2>${user.name}
             <span class="small-name">
@@ -20,7 +20,7 @@ function repoInformationHTML(repos) { // Repo object returned as array, so stand
         return `<div class="clearfix repo-list">No repos!</div>`; // If no info has been returned
     }
 
-    var listItemsHTML = repos.map(function(repo) { // Teh map method works like for each, but returns array, in this case a list item
+    var listItemsHTML = repos.map(function(repo) { // The map method works like for each, but returns array, in this case a list item
         return `<li>
                     <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                 </li>`;
@@ -37,6 +37,8 @@ function repoInformationHTML(repos) { // Repo object returned as array, so stand
 }
 
 function fetchGitHubInformation(event) {
+    $("#gh-user-data").html("");
+    $("#gh-repo-data").html("");
 
     var username = $("#gh-username").val();
     if (!username) {
@@ -70,3 +72,5 @@ function fetchGitHubInformation(event) {
             }
         });
 }
+
+$(document).ready(fetchGitHubInformation);

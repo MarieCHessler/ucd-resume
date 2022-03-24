@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* ---------------------------------------Colors */
+/*--------------------------------------------Colors*/
 
 .bg-color-name-title {
     background-color: #676767;
@@ -59,9 +59,6 @@
     background-color: #e74c3c;
 }
 
-
-
-
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
@@ -69,7 +66,7 @@ body {
     color: #555555;
 }
 
-/* ---------------------------------------Special paddings/margins/text */
+/*--------------------------------------------Special Paddings/Margins/Text*/
 
 h1,
 h2,
@@ -92,15 +89,10 @@ h4 {
     display: inline-block;
 }
 
+
 .row-table {
     display: table;
 }
-
-/* .section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-} */
 
 .history-heading,
 .section-heading {
@@ -110,7 +102,7 @@ h4 {
     margin-bottom: 40px;
 }
 
-/* ---------------------------------------Heading */
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
@@ -148,20 +140,11 @@ header {
     color: #ffffff;
 }
 
-/* .list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-} */
-
 #nav {
     margin: 0;
 }
 
 #nav li {
-    font-size: 14px;
     padding: 0;
 }
 
@@ -196,14 +179,14 @@ header {
     letter-spacing: 2px;
 }
 
-/* ---------------------------------------Hover.css */
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/* ---------------------------------------Footer */
+/*--------------------------------------------Footer*/
 
 footer {
     background-color: #525252;
@@ -213,9 +196,9 @@ footer {
 }
 
 footer .cv-pdf i {
-    font-size: 18px;
     color: #fafafa;
     text-align: center;
+    font-size: 18px;
     padding-left: 5px;
 }
 
@@ -252,10 +235,10 @@ footer .cv-pdf i:hover {
 }
 
 #footer-details {
-    padding: 20px;
+    margin: 20px;
 }
 
-/* ---------------------------------------Three Reasons */
+/*--------------------------------------------Three Reasons*/
 
 .three-reasons-icon {
     font-size: 26px;
@@ -266,7 +249,7 @@ footer .cv-pdf i:hover {
     margin-bottom: 15px;
 }
 
-/* ---------------------------------------Personal Info */
+/*--------------------------------------------Personal Info*/
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -302,12 +285,11 @@ footer .cv-pdf i:hover {
     width: 60%;
 }
 
-/* ---------------------------------------Skills */
+/*--------------------------------------------Skills*/
 
 .progress {
     position: relative;
     height: 25px;
-    /* margin-bottom: 4px; */
 }
 
 .progress-type {
@@ -323,7 +305,7 @@ footer .cv-pdf i:hover {
     margin: 40px 20px;
 }
 
-/* ---------------------------------------Work History */
+/*--------------------------------------------Work History*/
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -345,7 +327,7 @@ footer .cv-pdf i:hover {
     display: block;
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em;
     padding: 0;
     margin: 0;
 }
@@ -359,7 +341,7 @@ footer .cv-pdf i:hover {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background-color: #fafafa;
+    background: #fafafa;
 }
 
 .history-heading {
@@ -371,7 +353,7 @@ footer .cv-pdf i:hover {
     margin-bottom: 30px;
 }
 
-/* ---------------------------------------Contact Form */
+/*--------------------------------------------Contact*/
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -389,17 +371,16 @@ footer .cv-pdf i:hover {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
     background-color: #e84610;
+    color: #fafafa;
 }
 
-/* ---------------------------------------Map */
-
+/*--------------------------------------------Map*/
 div#map {
     min-height: 360px;
 }
 
-/* ---------------------------------------Media Queries */
+/*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
     .section-column {
@@ -413,5 +394,5 @@ div#map {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
-    } 
+    }
 }
